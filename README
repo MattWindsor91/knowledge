@@ -1,0 +1,24 @@
+knowledge
+---------
+
+For lack of better title.
+
+knowledge is a little experiment to create something slightly akin to 
+a semantic database, which holds terms and their relationships to 
+each other in a form that can then be used to describe those terms 
+to the user.
+
+So far, knowledge can recognise classifications (X is a kind of Y) 
+and aliases (X is an alias for Y, meaning that all requests for 
+information on X should be redirected to requests concerning Y).
+Future plans include metadata (eg X has a "birth year" with value "1992", 
+and "birth year" is a kind of "year" etc), associations (X is related to 
+Y), and an actual point.
+
+REQUIREMENTS:
+
+python and a tty. A C version may be forthcoming.
+
+USAGE:
+
+See the interactive prompt, called by running python on knowledge.py.
